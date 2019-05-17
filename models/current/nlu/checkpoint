@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\inhumane\\starter-pack-rasa-stack\\models\\current\\nlu\\component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\inhumane\\starter-pack-rasa-stack\\models\\current\\nlu\\component_5_EmbeddingIntentClassifier.ckpt"
