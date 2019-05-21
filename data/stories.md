@@ -30,3 +30,7 @@
  - utter_thanks
 * goodbye
  - utter_goodbye 
+
+## fallback story
+* out_of_scope
+  - action_default_fallback

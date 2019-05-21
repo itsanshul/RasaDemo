@@ -22,6 +22,7 @@ actions:
 - utter_greet
 - utter_goodbye
 - action_joke
+- utter_default
 
 
 templates:
@@ -36,4 +37,7 @@ templates:
   
   utter_thanks:
   - text: "My pleasure."
+
+  utter_default:
+  - text: "Sorry ! I am not sure I understand."  
   

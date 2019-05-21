@@ -6,6 +6,7 @@ actions:
 - utter_greet
 - utter_goodbye
 - action_joke
+- utter_default
 config:
   store_entities_as_slots: true
 entities:
@@ -30,6 +31,8 @@ slots:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
+  utter_default:
+  - text: Sorry ! I am not sure I understand.
   utter_goodbye:
   - text: Talk to you later!
   utter_greet:

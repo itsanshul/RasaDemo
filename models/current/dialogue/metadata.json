@@ -5,19 +5,22 @@
         "name"
       ]
     },
+    "utter_goodbye": {
+      "slots": []
+    },
     "utter_name": {
       "slots": []
     },
-    "utter_greet": {
-      "slots": []
-    },
-    "utter_goodbye": {
+    "action_default_fallback": {
       "slots": []
     },
     "action_joke": {
       "slots": []
     },
     "utter_thanks": {
+      "slots": []
+    },
+    "utter_greet": {
       "slots": []
     }
   },
@@ -35,7 +38,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190517-132516",
+  "trained_at": "20190521-145700",
   "rasa_core": "0.14.4",
   "tensorflow": "1.10.0",
   "sklearn": "0.20.2"
